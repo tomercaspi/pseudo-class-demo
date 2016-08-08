@@ -1,7 +1,7 @@
 body {
   background: gray;
 }
-
+/*
 li {
   text-decoration: underline;
   color: springgreen;
@@ -11,7 +11,7 @@ li {
 li:hover{
   text-decoration: none;
   color: hsl(220, 70%, 60%);
-/*   background: white; */
+!*   background: white; *!
 }
 
 li ul{
@@ -42,4 +42,40 @@ ul li:last-child{
 
 ul li:nth-child(odd){
   background: rgba(100%, 100%, 100%, 0.2);
+}*/
+
+#outerBox{
+  width: 200px;
+  /*height: 200px;*/
+  border-right: 20px solid red;
+  background: #FABDAC;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+ul{
+  width: 70px;
+  max-height: 100px;
+  border: 4px solid black;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('http://all4desktop.com/data_images/original/4244203-kitten.jpg');
+  overflow: auto;
+}
+
+.btn{
+  background-color: #FBADAF;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 0;
+  border-style: none;
+  border-shadow:  2px gray;
 }
