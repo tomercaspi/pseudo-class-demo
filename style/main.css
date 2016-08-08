@@ -79,3 +79,18 @@ ul{
   border-style: none;
   border-shadow:  2px gray;
 }
+
+.demo{
+  background: cyan;
+  border-radius: 5px;
+}
+
+.demo::before{
+  content: "1) ";
+  display: inline-block;
+  color: red;
+}
+
+.demo::after{
+  content: attr(rel);
+}
