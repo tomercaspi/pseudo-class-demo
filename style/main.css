@@ -1,0 +1,45 @@
+body {
+  background: gray;
+}
+
+li {
+  text-decoration: underline;
+  color: springgreen;
+  font-family: serif;
+}
+
+li:hover{
+  text-decoration: none;
+  color: hsl(220, 70%, 60%);
+/*   background: white; */
+}
+
+li ul{
+  display:none;
+}
+
+li:hover > ul{
+  display: block;
+  cursor: hand;
+}
+
+*:checked + label {
+  display: inline;
+}
+
+button:active{
+  background: blue;
+  border: blue;
+}
+
+ul li:first-child{
+  font-size: 30px;
+}
+
+ul li:last-child{
+  font-family: sans-serif;
+}
+
+ul li:nth-child(odd){
+  background: rgba(100%, 100%, 100%, 0.2);
+}
